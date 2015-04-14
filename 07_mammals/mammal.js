@@ -6,7 +6,7 @@ function Mammal(name){
 Mammal.prototype.sayHello = function(){
 		return "My name is "+this.name+", I'm a Mammal";
 	}
-
+//comment
 Mammal.prototype.haveBaby = function(){
 	var babyName = "Baby "+this.name;
 	var baby = new Mammal(babyName);
